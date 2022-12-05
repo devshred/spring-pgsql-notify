@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  database:
+    container_name: postgres_integration
+    image: postgres:13.9-alpine
+    environment:
+      POSTGRES_USER: "integration"
+      POSTGRES_PASSWORD: "integration"
+    ports:
+      - "5432:5432"

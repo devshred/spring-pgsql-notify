@@ -1,0 +1,5 @@
+### create event with some content
+GET http://localhost:8080/event?v=abc
+
+### create event with sequential number
+GET http://localhost:8080/event/next
